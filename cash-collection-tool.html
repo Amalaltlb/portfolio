@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Cash Collection Control Center, an Excel template for freelancers, small agencies and small businesses.">
+<title>Cash Collection Control Center | Excel Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=DM+Sans:wght@400;500;600&amp;family=Fraunces:opsz,wght@9..144,400;9..144,500&amp;display=swap" rel="stylesheet">
+<style>
+:root{--p:#f5f3ec;--c:#fcfbf7;--i:#202a22;--g:#4b6b52;--d:#314b38;--l:#c9cfc3;--b:#a8783c;--w:1180px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--p);color:var(--i);font:16px/1.55 "IBM Plex Sans",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--w),calc(100% - 48px));margin:auto}.ey,.meta,.no{font:12px "IBM Plex Mono",monospace}.ey{color:var(--b);margin:0 0 15px}.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;z-index:9;background:var(--p);padding:8px}header{position:sticky;top:0;z-index:3;background:#f5f3ecef;backdrop-filter:blur(10px);border-bottom:1px solid var(--l)}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font:500 22px Fraunces,serif}nav{display:flex;align-items:center;gap:21px}nav a{font:12px "IBM Plex Mono",monospace}.btn{display:inline-block;border:1px solid var(--g);padding:11px 16px;font:500 12px "IBM Plex Mono",monospace}.btn:hover{background:var(--g);color:var(--p)}.buy{background:var(--b);border-color:var(--b);color:var(--c)}.buy:hover{background:var(--i);border-color:var(--i)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Fraunces,serif;font-weight:500;line-height:1.05;letter-spacing:-.035em}h1{max-width:680px;font-size:clamp(48px,6.4vw,78px)}h1 em{color:var(--g);font-weight:400}.hero{padding:76px 0 64px;display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:center}.lede{max-width:590px;font-size:19px;margin:25px 0 28px}.actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}.price{color:var(--g);font:12px "IBM Plex Mono",monospace}.shot{padding:12px;background:var(--d);border:1px solid var(--l);border-top:5px solid var(--b)}.shot img{display:block;width:100%}.shot p{margin:10px 0 0;color:var(--p);font:12px "IBM Plex Mono",monospace}section{padding:78px 0;border-top:1px solid var(--l)}h2{font-size:clamp(34px,4.5vw,54px)}.proof{background:var(--d);color:var(--p);border:0}.proof h2{max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:40px;border-top:1px solid #8fa094}.grid article{padding:24px 28px 0 0;margin-right:28px;border-right:1px solid #8fa094}.grid article:last-child{border:0}.grid h3{font-size:25px;margin-bottom:10px}.grid p{margin:0;color:#e2e6de}.head{display:flex;justify-content:space-between;gap:22px;align-items:baseline;margin-bottom:35px}.head .meta{color:var(--g)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}.step{border-top:2px solid var(--g);padding-top:15px}.no{color:var(--b)}.step h3{font-size:27px;margin:9px 0}.step p{margin:0;max-width:31ch}.inside{display:grid;grid-template-columns:.88fr 1.12fr;gap:70px}.sticky{position:sticky;top:105px}.sticky p{font-size:18px;max-width:35ch}.list{border-top:1px solid var(--g)}.feature{display:grid;grid-template-columns:52px 1fr auto;gap:18px;padding:21px 0;border-bottom:1px solid var(--l)}.feature h3{font-size:26px;margin:0 0 5px}.feature p{margin:0;max-width:50ch}.feature .meta{color:var(--g);text-align:right}.cta{background:var(--c)}.ctarow{display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}.cta h2{max-width:650px;margin-bottom:16px}.cta p{max-width:650px;font-size:18px;margin-bottom:0}.note{margin-top:12px!important;color:var(--g);font:12px "IBM Plex Mono",monospace!important}footer{padding:44px 0 52px}.foot{display:flex;justify-content:space-between;gap:25px;align-items:end}.foot p{font:500 30px Fraunces,serif;margin:0 0 8px}.links{display:flex;gap:20px;flex-wrap:wrap;font:12px "IBM Plex Mono",monospace}@media(max-width:780px){.wrap{width:min(100% - 36px,var(--w))}nav a:not(.btn){display:none}.hero,.inside{grid-template-columns:1fr;gap:42px}.hero,section{padding:55px 0}.grid,.steps{grid-template-columns:1fr;gap:0}.grid article{border-right:0;border-bottom:1px solid #8fa094;margin:0;padding:22px 0}.grid article:last-child{border:0}.sticky{position:static}.feature{grid-template-columns:42px 1fr;gap:14px}.feature .meta{grid-column:2;text-align:left}.ctarow{grid-template-columns:1fr;gap:24px}.foot{flex-direction:column;align-items:start}}
+  /* Shared visual language with the analyst portfolio homepage */
+  :root { --p:#121a18; --c:#192521; --i:#f3f1e9; --g:#a9d278; --d:#17231f; --l:#34443d; --b:#cba56c; }
+  body { font-family:"DM Sans",sans-serif; background:var(--p); color:#f7f6f0; }
+  .ey, .meta, .no, .price, .note, nav a, .btn, .shot p, .links { font-family:"DM Mono",monospace; }
+  header { background:#121a18ef; border-color:var(--l); }
+  .ey { color:var(--g); } .no { color:var(--b); } h1 em { color:var(--b); }
+  section { border-color:var(--l); } .proof { background:var(--d); color:#f7f6f0; } .cta, .shot { background:var(--c); }
+  .proof h2 { color:#f7f6f0; } .proof h3 { color:#e6f0dc; }
+  nav a { color:#dbe5de; }
+  .proof p, .step p, .feature p, .lede { color:#d0dad3; }
+  .sticky p, .cta p { color:#d0dad3; }
+  .grid, .grid article, .feature, .list { border-color:#52665c; }
+  .grid article { border-right-color:var(--l); }
+  .step { border-top-color:var(--g); }
+  .shot { border-color:var(--l); border-top-color:var(--b); }
+  .btn { color:var(--g); border-color:var(--g); }
+  .btn:hover { background:var(--g); color:#121a18; }
+  .buy { background:var(--b); border-color:var(--b); color:#121a18; }
+  .buy:hover { background:var(--g); border-color:var(--g); color:#121a18; }
+  .price, .head .meta, .feature .meta, .note { color:#c8e6a7; }
+  .shot p { color:#f7f6f0; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<div class="wrap nav">
+<a class="brand" href="amal-mohamed-portfolio.html">Amal Mohamed</a>
+<nav>
+<a href="#inside">What is inside</a>
+<a href="#how">How it works</a>
+<a href="#contact">Contact</a>
+<a class="btn" href="https://amalaltlb.gumroad.com/l/icfwu" target="_blank" rel="noopener">Buy for €29</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<section class="hero wrap">
+<div>
+<p class="ey">Excel collection template for freelancers, small agencies and small businesses</p>
+<h1>Stop guessing who to <em>follow up with.</em>
+</h1>
+<p class="lede">The Cash Collection Control Center prioritises overdue invoices by how each customer normally pays, not simply by how much they owe.</p>
+<div class="actions">
+<a class="btn buy" href="https://amalaltlb.gumroad.com/l/icfwu" target="_blank" rel="noopener">Get the Excel template</a>
+<a class="btn" href="#inside">See what is inside</a>
+<span class="price">€29, instant download</span>
+</div>
+</div>
+<div class="shot">
+<img src="https://public-files.gumroad.com/uxaw1y31fv716dz0a8on6ou0kxb3" alt="Cash Collection Control Center dashboard preview">
+<p>Live customer priority list, sorted by risk and value.</p>
+</div>
+</section>
+<section class="proof">
+<div class="wrap">
+<p class="ey">Why this template</p>
+<h2>An overdue invoice is not always the invoice that needs attention first.</h2>
+<div class="grid">
+<article>
+<h3>See unusual delays</h3>
+<p>A normally reliable customer who is suddenly 100 days late deserves attention before one who always pays a little slowly.</p>
+</article>
+<article>
+<h3>Prioritise with context</h3>
+<p>Get a ranked list telling you exactly which customer to contact today, based on risk and value.</p>
+</article>
+<article>
+<h3>Keep the work simple</h3>
+<p>Enter your invoices, then let the dashboard update. No macros, no manual sorting, no complicated setup.</p>
+</article>
+</div>
+</div>
+</section>
+<section id="how">
+<div class="wrap">
+<div class="head">
+<h2>From invoice data to the next right action.</h2>
+<span class="meta">How it works</span>
+</div>
+<div class="steps">
+<article class="step">
+<span class="no">01</span>
+<h3>Add your invoices</h3>
+<p>Use the shaded input cells to add customers and invoice rows to the Excel Table.</p>
+</article>
+<article class="step">
+<span class="no">02</span>
+<h3>See the picture</h3>
+<p>Review total outstanding, cash at risk, current DSO, ageing and accounts needing action.</p>
+</article>
+<article class="step">
+<span class="no">03</span>
+<h3>Follow up with purpose</h3>
+<p>Use the live priority list to focus today’s collection effort where it matters most.</p>
+</article>
+</div>
+</div>
+</section>
+<section id="inside">
+<div class="wrap inside">
+<div class="sticky">
+<p class="ey">What is inside</p>
+<h2>One workbook, a clearer view of receivables.</h2>
+<p>Built for people who need a better way to follow up on unpaid invoices.</p>
+<a class="btn" href="https://amalaltlb.gumroad.com/l/icfwu" target="_blank" rel="noopener">Watch the demo on Gumroad</a>
+</div>
+<div class="list">
+<article class="feature">
+<span class="no">01</span>
+<div>
+<h3>Collection Dashboard</h3>
+<p>Four live KPI measures show cash at risk, total outstanding, current DSO and accounts needing action.</p>
+</div>
+<span class="meta">Dashboard</span>
+</article>
+<article class="feature">
+<span class="no">02</span>
+<div>
+<h3>Ageing Analysis</h3>
+<p>Understand outstanding receivables across current, 1 to 30, 31 to 60, 61 to 90 and more than 90 days.</p>
+</div>
+<span class="meta">Visibility</span>
+</article>
+<article class="feature">
+<span class="no">03</span>
+<div>
+<h3>Customer Priority List</h3>
+<p>Live ranking of the accounts with the highest risk and value, without manual sorting.</p>
+</div>
+<span class="meta">Action</span>
+</article>
+<article class="feature">
+<span class="no">04</span>
+<div>
+<h3>Invoice Level Data Tab</h3>
+<p>Start with 20 sample customers and more than 160 invoices, then add your own data as the table grows.</p>
+</div>
+<span class="meta">Input</span>
+</article>
+</div>
+</div>
+</section>
+<section class="cta">
+<div class="wrap ctarow">
+<div>
+<p class="ey">Ready to use</p>
+<h2>Know which accounts need attention today.</h2>
+<p>Built for Excel 2019 and Microsoft 365. Add your existing invoice data to the clearly marked input cells and let the workbook do the sorting.</p>
+<p class="note">If it does not fit how you work, you are covered by the seven day money back guarantee.</p>
+</div>
+<a class="btn buy" href="https://amalaltlb.gumroad.com/l/icfwu" target="_blank" rel="noopener">Buy the template for €29</a>
+</div>
+</section>
+</main>
+<footer id="contact">
+<div class="wrap foot">
+<div>
+<p>Let us make the numbers useful.</p>
+<span class="meta">Caen, France</span>
+</div>
+<div class="links">
+<a href="amal-mohamed-portfolio.html">Portfolio</a>
+<a href="mailto:amalaltlb@outlook.com">Email</a>
+<a href="https://www.linkedin.com/in/amal-mo" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+</div>
+</footer>
+</body>
+</html>
